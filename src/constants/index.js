@@ -11,7 +11,7 @@ export const EXPERIENCES = [
     role: "Backend Developer Intern",
     company: "Airtel Digital",
     description: `During my internship at Airtel Digital with the Xstream backend team, I developed an anomaly detection service for payments data. I designed features, debugged code, and collaborated with teams, successfully optimizing performance and improving code quality. This experience enhanced my problem-solving skills and highlighted the importance of efficient coding and teamwork.`,
-    technologies: ["Java", "SpringBoot", "RestApis", "ElasticSearch","JIRA","GIT"],
+    technologies: ["Java", "SpringBoot", "RestApis", "ElasticSearch","JIRA","GIT","Slack"],
   },
 ];
 
