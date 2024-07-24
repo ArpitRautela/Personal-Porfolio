@@ -22,10 +22,13 @@ const App = () => {
         <Technologies />
         <Experience />
         <Projects />
-        <Contact />
+        <Contact />  
       </div>
     </div>
   )
 }
 
 export default App
+
+
+
