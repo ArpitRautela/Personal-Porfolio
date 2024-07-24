@@ -62,7 +62,7 @@ const Hero = () => {
                         <div className="flex justify-center">
                             <motion.img
                                 initial={{ x: 100, opacity: 0 , y: 0 }}
-                                animate={{ x: 0, opacity: 1 , y:100}}
+                                animate={{ x: 0, opacity: 1 , y:75}}
                                 transition={{ duration: 1, delay: 1.2 }}
                                 src={profilepic}
                                 alt="Arpit"
