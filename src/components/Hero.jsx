@@ -46,7 +46,7 @@ const Hero = () => {
                                 {HERO_CONTENT}
                             </motion.p>
                             <motion.a
-                                href="https://drive.google.com/file/d/1ECCnPBFx7Q_zeu3GO-wcuexAe7tiAiFt/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1NEFotvRQUWOp5JVc9BISzBp4DsviKD5i/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
