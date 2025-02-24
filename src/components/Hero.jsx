@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants/index";
-import profilepic from "../assets/Profile.jpeg";
+import profilepic from "../assets/profile3.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -19,7 +19,7 @@ const Hero = () => {
         <div>
             <div className="border-b border-neutral-900 pb-4 lg:mb-35">
                 <div className="flex flex-wrap">
-                    <div className="w-full lg:w-1/2">
+                    <div className="w-full lg:w-2/3">
                         <div className="flex flex-col items-center lg:items-start">
                             <motion.h1
                                 variants={container(0)}
@@ -46,7 +46,7 @@ const Hero = () => {
                                 {HERO_CONTENT}
                             </motion.p>
                             <motion.a
-                                href="https://drive.google.com/file/d/1NEFotvRQUWOp5JVc9BISzBp4DsviKD5i/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1PacMrPpsSTsSajKJ2XBmFyJCOopMCD_g/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
@@ -58,7 +58,7 @@ const Hero = () => {
                             </motion.a>
                         </div>
                     </div>
-                    <div className="w-full lg:w-1/2 lg:p-8">
+                    <div className="w-full lg:w-1/3 lg:p-8">
                         <div className="flex justify-center">
                             <motion.img
                                 initial={{ x: 100, opacity: 0 , y: 0 }}
@@ -66,7 +66,7 @@ const Hero = () => {
                                 transition={{ duration: 1, delay: 1.2 }}
                                 src={profilepic}
                                 alt="Arpit"
-                                width="350"
+                                width="400"
                                 height="350"
                                 className="rounded-2xl"
                             />

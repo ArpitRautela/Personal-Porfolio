@@ -3,16 +3,22 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png"
 
-export const HERO_CONTENT = `I build scalable Java applications using Spring Boot and craft dynamic web experiences with React and Next.js. My technical skills extend to working with databases like MySQL, PostgreSQL, and MongoDB. I'm passionate about solving complex problems and always eager to explore new technologies. Explore my projects to see how I turn ideas into functional solutions!`;
+export const HERO_CONTENT = `I’m a passionate software developer with a solid foundation in full-stack development and a drive for building innovative, real-time applications. Proficient in modern web technologies like React, Next.js, Node.js, and Spring Boot, I focus on crafting scalable solutions and seamless user experiences. Recently, I’ve delved into AI agent development using the Gemini API and Neon database, exploring how artificial intelligence can power smarter, adaptive systems. My goal is to create impactful digital products that blend functionality, performance, and intelligence — pushing the boundaries of technology every step of the way.`;
 
-export const ABOUT_TEXT = `I’m a third-year B.Tech CSE student with expertise in Java backend development using Spring Boot and web development. I’m skilled in creating scalable applications and dynamic web interfaces with React, Next.js, Node.js, and various databases. Passionate about solving complex problems and eager to contribute to innovative projects.`;
+export const ABOUT_TEXT = `I’m a dedicated Software Developer pursuing a Bachelor of Technology in Computer Science and Engineering. With a strong grasp of full-stack development, I specialize in modern technologies like React, Next.js, Node.js, and Spring Boot. My technical toolkit includes languages like JavaScript, Java, and C++, alongside databases such as PostgreSQL and MongoDB. 
+
+My passion extends to problem-solving — I’ve tackled over 350 Data Structures and Algorithms (DSA) questions, sharpening my analytical thinking and coding skills. Recently, I’ve ventured into AI agent development using the Gemini API and Neon database, exploring how intelligent systems can drive innovation and efficiency.
+
+Beyond academics, I’m driven by curiosity and creativity, having built impactful projects like CodePair — a real-time code collaboration platform — and Real-Time Location Tracker — a live geolocation-sharing app optimized for seamless performance.
+
+I’m always excited to embrace new challenges, push technological boundaries, and build solutions that leave a mark. Let’s connect and create something extraordinary!`;
 
 export const EXPERIENCES = [
   {
     year: "MAY'24 - JULY'24",
     role: "Backend Developer Intern",
     company: "Airtel Digital",
-    description: `During my internship at Airtel Digital with the Xstream backend team, I developed an anomaly detection service for payments data. I designed features, debugged code, and collaborated with teams, successfully optimizing performance and improving code quality. This experience enhanced my problem-solving skills and highlighted the importance of efficient coding and teamwork.`,
+    description: `During my internship at Airtel Digital, I worked on developing a real-time anomaly detection system for the Xtream app's payment processing. Using Spring Boot and data pipelines with cURL and REST APIs, I built a scalable solution capable of processing over 15,000 transactions per hour with 95% accuracy. I implemented an advanced detection algorithm based on historical trends, boosting payment reliability by 30%, and integrated an automated Slack-based alert system—cutting issue resolution time by 50%. This experience sharpened my backend development skills, reinforced my problem-solving mindset, and gave me hands-on exposure to building high-performance, data-driven systems.`,
     technologies: [
       "Java",
       "SpringBoot",
@@ -30,7 +36,7 @@ export const PROJECTS = [
     title: "Real-Time Location Tracker",
     image: project3,
     description:
-      "The Real-Time Location Tracker is a web-based application that enables users to share and view live locations on an interactive map. It supports multiple users, dynamically updates markers, and ensures seamless real-time tracking using WebSockets and geolocation services.",
+      "Real-Time Location Tracker enables precise live geolocation sharing. The app utilizes WebSockets to push location updates with 40% lower latency, ensuring smooth and accurate real-time tracking. Map rendering was optimized with Leaflet.js, reducing load times by 20%, making the platform efficient even with large data sets — perfect for time-sensitive tracking needs.",
     technologies: [
       "Node.js",
       "Express",
@@ -46,7 +52,7 @@ export const PROJECTS = [
     title: "CodePair - Real-Time Code Collaboration",
     image: project4,
     description:
-      "CodePair is a web-based real-time code collaboration platform where multiple users can edit and share code simultaneously. It features syntax highlighting, seamless updates, and a responsive design to enhance collaborative coding experiences.",
+      "CodePair, a real-time code collaboration platform. It empowers multiple users to write, edit, and debug code simultaneously in a shared environment, boosting team productivity by 40%. The platform features advanced syntax highlighting and responsive UI, ensuring smooth collaboration across devices. With optimized API calls and a scalable backend, CodePair reduces latency by 25%, providing a seamless, high-performance experience for developers working together in real time.",
     technologies: [
       "React",
       "Tailwind CSS",
